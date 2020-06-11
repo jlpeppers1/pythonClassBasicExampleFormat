@@ -45,19 +45,40 @@ def hello_world():
     print('hello world!')
 #another function, returns a value, takes an input of true or false
 def get_pi(x):
-    """Describe the purpose of the function. Do this to not lose points on your assignments"""
+    """
+    Use reST style.
+
+    :param parameter_1: this is what the first parameter represents
+    :param parameter_2: this is what the second parameter represents
+    :returns: this is what is returned
+    :raises keyError: raises an exception
+    """
     if (x):
         return PI
     else:
         return 0
 
 def get_user_input_once():
-    """Describe the purpose of the function. Do this to not lose points on your assignments"""
+    """
+    Use reST style.
+
+    :param parameter_1: this is what the first parameter represents
+    :param parameter_2: this is what the second parameter represents
+    :returns: this is what is returned
+    :raises keyError: raises an exception
+    """
     user_input = input("please enter a value")
     return user_input
 
 def get_user_input_twice():
-    """Describe the purpose of the function. Do this to not lose points on your assignments"""
+    """
+    Use reST style.
+
+    :param parameter_1: this is what the first parameter represents
+    :param parameter_2: this is what the second parameter represents
+    :returns: this is what is returned
+    :raises keyError: raises an exception
+    """
     user_input_one = input("please enter a value")
     user_input_two = input("please enter a different value")
     return_string = "You input " + user_input_one + " and " + user_input_two + "."
