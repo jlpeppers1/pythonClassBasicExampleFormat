@@ -11,19 +11,23 @@ as output.  The function is then called.
 PI = 3.14159265358979323
 
 def hello_world():
+    """Describe the purpose of the function. Do this to not lose points on your assignments"""
     print('hello world!')
 
 def get_pi(x):
+    """Describe the purpose of the function. Do this to not lose points on your assignments"""
     if (x):
         return PI
     else:
         return 0
 
 def get_user_input_once():
+    """Describe the purpose of the function. Do this to not lose points on your assignments"""
     user_input = input("please enter a value")
     return user_input
 
 def get_user_input_twice():
+    """Describe the purpose of the function. Do this to not lose points on your assignments"""
     user_input_one = input("please enter a value")
     user_input_two = input("please enter a different value")
     return_string = "You input " + user_input_one + " and " + user_input_two + "."
